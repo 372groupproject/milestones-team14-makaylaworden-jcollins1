@@ -30,7 +30,7 @@ README.txt
       it individual values or a pointer with an array of values. 
     - To compile and run this program:
         - Download and save milestone1code.ruby onto your machine
-        (a) (a) Command Line:
+        (a) Command Line:
             - From the command line go into the directory that has milestone1code.ruby
             - Print the command: ruby milestone1code.ruby
             - This will compile and run the program and two lines should print to the console
