@@ -1,9 +1,21 @@
-# Operators are really method invocations.
-a = 10
-b = 3.*(a).+(2)
-printf("%d %d\n", a, b);
+# Add the strings before and after around each parm and print
+def surround(before, after, *items)
+    items.each { |x| print before, x, after, "\n" }
+end
 
-# Type is still dynamic.
-b = String.new("A string")
-c = 'Another String'
-print(b.+(" and ")::+(c).+("\n"))
+surround('[', ']', 'hi', 'goodbye', 'the sound')
+print "\n"
+
+surround('<', '>', 'Unicorns', 'Bozers', 'Snails', 'Salamanders', 'Slugs',
+        'People')
+print "\n"
+
+def printer(a, b, c, d)
+    print "a = #{a} b = #{b}, c = #{c}, d = #{d}\n"
+end
+
+# Use * to adapt between arrays and arguments
+list1 = ['snack', 'fast', 'junk', 'pizza']
+list2 = [4, 9]
+printer(*list1)
+printer(17, 3, *list2)
