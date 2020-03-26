@@ -11,7 +11,6 @@ Find at least one web-site that discusses the language in depth.
 4. (a) Here is Ruby's offical online community: https://www.ruby-lang.org/en/community/
    (b) Here is another online forum that is not ran through Ruby: https://www.ruby-forum.com/
 5. Here is a website called The Odin Project with many different levels of Ruby projects along with numerous different solutions that      have been submitted: https://www.theodinproject.com/courses/ruby-programming
-Find a description of at least one major project coded in this language. If possible, ﬁnd an open source project so you can look at the code!
 6. Here is where you can download and install the Ruby package: https://rubyinstaller.org/downloads/
     - Select Ruby+Devkit 2.6.5-1 (x64) this is the most recommended version
     - Once it is downloaded, run the Ruby Installer and install the first default package and then it will be downloaded
