@@ -5,8 +5,9 @@ Milestone 1
 
 1. Find at least one book for your language, and check it out from the library!
 2. Find at least one web-site that discusses the language in depth.
-3. Find the language reference manual that deﬁnes the language.
-4. Find at least one community for your language. This could be a mailing list, or an online forum dedicated to this language, where programmers can ask questions and help each other.
+3. Here is where you can see the Documentation for Ruby: https://www.ruby-lang.org/en/documentation/
+4. (a) Here is Ruby's offical online community: https://www.ruby-lang.org/en/community/
+   (b) Here is another online forum that is not ran through Ruby: https://www.ruby-forum.com/
 5. Find a description of at least one major project coded in this language. If possible, ﬁnd an open source project so you can look at the code!
 6. Here is where you can download and install the Ruby package: https://rubyinstaller.org/downloads/
     - Select Ruby+Devkit 2.6.5-1 (x64) this is the most recommended version
