@@ -11,15 +11,16 @@ Find at least one web-site that discusses the language in depth.
 4. (a) Here is Ruby's offical online community: https://www.ruby-lang.org/en/community/
    (b) Here is another online forum that is not ran through Ruby: https://www.ruby-forum.com/
 5. Here is a website called The Odin Project with many different levels of Ruby projects along with numerous different solutions that      have been submitted: https://www.theodinproject.com/courses/ruby-programming
-6. Here is where you can download and install the Ruby package: https://rubyinstaller.org/downloads/
-    - Select Ruby+Devkit 2.6.5-1 (x64) this is the most recommended version
-    - Once it is downloaded, run the Ruby Installer and install the first default package and then it will be downloaded
-    - Create any .ruby or .rb file and then go into the directory where the file is
-    - From the command line type, ruby <filename>
-    - If you want a helpful text editor that can run Ruby, Atom works well
-        - You can download Atom at: https://atom.io/
-        - Once it has downloaded, go into File -> Settings -> Install 
-        - Search "script" and "atom runner" and install both of these
-        - Restart Atom 
-        - Open up your Ruby file, go to Packages -> Script -> Run Script and the output should appear at the bottom of your screen
-          in a new window
+6. (a) Here is where you can download and install the Ruby package: https://rubyinstaller.org/downloads/
+         - Select Ruby+Devkit 2.6.5-1 (x64) this is the most recommended version
+         - Once it is downloaded, run the Ruby Installer and install the first default package and then it will be downloaded
+         - Create any .ruby or .rb file and then go into the directory where the file is
+         - From the command line type, ruby <filename>
+         - If you want a helpful text editor that can run Ruby, Atom works well
+            - You can download Atom at: https://atom.io/
+            - Once it has downloaded, go into File -> Settings -> Install 
+            - Search "script" and "atom runner" and install both of these
+            - Restart Atom 
+            - Open up your Ruby file, go to Packages -> Script -> Run Script and the output should appear at the bottom of your screen
+                in a new window
+   (b) Here is an online editor: https://repl.it/languages/Ruby
