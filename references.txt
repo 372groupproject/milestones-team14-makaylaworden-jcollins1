@@ -4,7 +4,9 @@ CSC 372, Collberg
 Milestone 1
 
 1. Find at least one book for your language, and check it out from the library!
-2. Find at least one web-site that discusses the language in depth.
+2. (a) Here is an online resource that explains the basics of Ruby to get poeple started: https://www.codeconquest.com/tutorials/ruby/programming-projects-for-beginners/ https://www.codeconquest.com/tutorials/ruby/programming-projects-for-beginners/
+   (b) 
+Find at least one web-site that discusses the language in depth.
 3. Here is where you can see the Documentation for Ruby: https://www.ruby-lang.org/en/documentation/
 4. (a) Here is Ruby's offical online community: https://www.ruby-lang.org/en/community/
    (b) Here is another online forum that is not ran through Ruby: https://www.ruby-forum.com/
