@@ -3,4 +3,16 @@ jcollins1, makaylaworden
 CSC 372, Collberg
 Milestone 1
 
-Use this file to list all of our sources 
+1. Find at least one book for your language, and check it out from the library!
+2. Find at least one web-site that discusses the language in depth.
+3. Find the language reference manual that deﬁnes the language.
+4. Find at least one community for your language. This could be a mailing list, or an online forum dedicated to this language, where programmers can ask questions and help each other.
+5. Find a description of at least one major project coded in this language. If possible, ﬁnd an open source project so you can look at the code!
+6. Find and install a compiler/interpreter for the language.
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
