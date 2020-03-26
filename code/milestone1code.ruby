@@ -1,3 +1,12 @@
+# Jensen Collins, Makayla Worden
+# jcollins1, makaylaworden
+# CSC 372, Collberg
+# milestone1code.ruby
+# This file does some interesting things with the syntax and some data structures in Ruby.
+# First there is the the surround method that wraps Strings inside a certain type of
+# bracket using both pointers and chars. Then there is the printer method which prints
+# out each element of the list using both numbers and pointers.
+
 # Add the strings before and after around each parm and print
 def surround(before, after, *items)
     items.each { |x| print before, x, after, "\n" }
