@@ -16,3 +16,11 @@ puts x
 x = 8 if x == 2
 print "x: "
 puts x
+
+if (x == 3)
+  puts "x is equal to 3"
+elsif (x == 5)
+  puts "x is equal to 5"
+else
+  puts "x is not equal to 3 or 5"
+end
