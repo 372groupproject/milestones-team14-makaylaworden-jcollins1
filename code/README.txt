@@ -40,6 +40,23 @@ README.txt
             - This will compile and run the program and two lines should print to the console
             
 ------------------------------------------- MILESTONE 2 -------------------------------------------
+
+(1) r2_case.ruby
+    - This is a short snippet of Ruby code that shows how to use a case statement. There are a couple
+      varities with being able to use an 'else' or not. The main keywords are 'case' and 'when' and
+      work similarily to other case statement found in other popular languages. 
+    - To compile and run this program:
+        - Download and save p2_case.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p2_case.ruby
+            - Print the command: ruby p2_case.ruby
+            - This will compile and run the program and two lines should print to the console
+        (b) Atom editor:
+            - Load the file p2_case.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and two lines should print to the console
+            
+
 Websites for control structures: 
     - https://www.linuxtopia.org/online_books/programming_books/ruby_tutorial/Ruby.new_Control_Structures.html
     - https://ruby-doc.org/docs/ruby-doc-bundle/UsersGuide/rg/control.html
