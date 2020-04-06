@@ -38,3 +38,10 @@ README.txt
             - Load the file milestone1code.ruby into the workspace
             - Click Packages -> Script -> Run Script
             - This will compile and run the program and two lines should print to the console
+            
+------------------------------------------- MILESTONE 2 -------------------------------------------
+Websites for control structures: 
+    - https://www.linuxtopia.org/online_books/programming_books/ruby_tutorial/Ruby.new_Control_Structures.html
+    - https://ruby-doc.org/docs/ruby-doc-bundle/UsersGuide/rg/control.html
+    - https://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Control_Structures
+
