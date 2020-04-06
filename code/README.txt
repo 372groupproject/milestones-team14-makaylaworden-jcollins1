@@ -102,6 +102,9 @@ README.txt
             - This will compile and run the program and two lines should print to the console
 
 (5) p2_unless.ruby
+    - This is a short snippet of Ruby code that shows how to use an unless statement. There are
+      two variations of how to write unless statements with different syntax. Unless statements
+      act like the opposite of an if statements. 
     - To compile and run this program:
         - Download and save p2_unless.ruby onto your machine
         (a) Command Line:
@@ -114,6 +117,9 @@ README.txt
             - This will compile and run the program and two lines should print to the console
 
 (6) p2_until.ruby
+    - This is a short snippet of Ruby code that shows how to use an until statement. There are
+      two variations of how to write an until statement with different syntax. Until statments
+      act like the opposite of a while loop.
     - To compile and run this program:
         - Download and save p2_until.ruby onto your machine
         (a) Command Line:
@@ -126,6 +132,8 @@ README.txt
             - This will compile and run the program and two lines should print to the console
 
 (7) p2_while.ruby
+    - This is a short snippet of Ruby code that shows how to use a whlie loop. There are two
+      variations of how to write a while loop with different syntax. 
     - To compile and run this program:
         - Download and save p2_while.ruby onto your machine
         (a) Command Line:
