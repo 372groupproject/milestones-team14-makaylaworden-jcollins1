@@ -1,6 +1,10 @@
-# The format is: result = (condition) ? (expression-if-true) : (expression-if-false)
-# Or: result = if condition then expression-1 else expression-2 end
-# Or; result = (value-1 if expression-1) || (value-2 if expression-2)
+# Jensen Collins
+# jcollins1, makaylaworden
+# CSC 372, Collberg
+# p2_shortif.ruby
+# This file shows how to make use a short-if expression in Ruby. There are 3
+# different variations but all do the same thing. It can only make the decision
+# true or false for one expression per short-if. 
 
 puts (true ? 't' : 'f')
 puts (false ? 't' : 'f')
