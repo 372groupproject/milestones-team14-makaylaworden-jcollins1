@@ -1,6 +1,11 @@
-# These are all the different ways you can use an if statement in Ruby
-# The version if x == 2: x = 12 end and includes an ':' is no longer
-# supported by newer versions of Ruby.
+# Jensen Collins, Makayla Worden
+# jcollins1, makaylaworden
+# CSC 372, Collberg
+# p2_if.ruby
+# This file shows how to use an if statement in Ruby. There are some 
+# variations but are doing the same thing. There was a way to use an if
+# with a ':', i.e. if x == 2 : x = 12 end, but this is not supported by
+# newer versions of Ruby
 
 x = 6
 if x <= 10
