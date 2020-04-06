@@ -1,8 +1,10 @@
-# Unless-expressions are the opposite of the if-expressions
-# The block will execute if the test expression if false
-# Unless-expressions are the same as negating an if,
-# if !expression. Unless-expressions does not allow
-# for following elsif, there is no elsunless
+# Jensen Collins, Makayla Worden
+# jcollins1, makaylaworden
+# CSC 372, Collberg
+# p2_unless.ruby
+# This file shows how to use an unless expression in Ruby. These act
+# as the opposite to an if statement. It will go into the block if
+# the expression is false.
 
 x = 9
 unless x == 3
