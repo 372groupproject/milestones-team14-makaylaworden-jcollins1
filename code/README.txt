@@ -145,10 +145,17 @@ README.txt
             - Click Packages -> Script -> Run Script
             - This will compile and run the program and two lines should print to the console
 
-(8)            
-
-Websites for control structures: 
-    - https://www.linuxtopia.org/online_books/programming_books/ruby_tutorial/Ruby.new_Control_Structures.html
-    - https://ruby-doc.org/docs/ruby-doc-bundle/UsersGuide/rg/control.html
-    - https://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Control_Structures
-
+(8) milestone2code.ruby
+    - 
+    - To compile and run this program:
+        - Download and save milestone2code.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has milestone2code.ruby
+            - Print the command: ruby milestone2code.ruby
+            - This will compile and run the program and two lines should print to the console
+        (b) Atom editor:
+            - Load the file milestone2code.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and two lines should print to the console
+            
+            
