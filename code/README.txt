@@ -50,11 +50,11 @@ README.txt
         (a) Command Line:
             - From the command line go into the directory that has p2_case.ruby
             - Print the command: ruby p2_case.ruby
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the two switch cases will run
         (b) Atom editor:
             - Load the file p2_case.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the two switch cases will run
             
 (2) p2_for.ruby
     - This is a short snippet of Ruby code that shows how to use a for loop. There are a couple
@@ -65,12 +65,12 @@ README.txt
         (a) Command Line:
             - From the command line go into the directory that has p2_for.ruby
             - Print the command: ruby p2_for.ruby
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the three for loops will run
         (b) Atom editor:
             - Load the file p2_for.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and two lines should print to the console
-
+            - This will compile and run the program and each of the three for loops will run
+            
 (3) p2_if.ruby
     - This is a short snippet of Ruby code that shows how to use a if statement. There are a 
       couple of varities that use different syntax. There is also an if-elsif-else in Ruby and
@@ -80,11 +80,11 @@ README.txt
         (a) Command Line:
             - From the command line go into the directory that has p2_if.ruby
             - Print the command: ruby p2_if.ruby
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the four if statements will run
         (b) Atom editor:
             - Load the file p2_if.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the four if statements will run
 
 (4) p2_shortif.ruby
     - This is a short snippet of Ruby code that shows how to use a short-if statement. There 
@@ -95,11 +95,13 @@ README.txt
         (a) Command Line:
             - From the command line go into the directory that has p2_shortif.ruby
             - Print the command: ruby p2_shortif.ruby
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the five short-if statements will
+              run
         (b) Atom editor:
             - Load the file p2_shortif.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the five short-if statements will
+              run
 
 (5) p2_unless.ruby
     - This is a short snippet of Ruby code that shows how to use an unless statement. There are
@@ -110,11 +112,11 @@ README.txt
         (a) Command Line:
             - From the command line go into the directory that has p2_unless.ruby
             - Print the command: ruby p2_unless.ruby
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the two unless statements will run
         (b) Atom editor:
             - Load the file p2_unless.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the two unless statements will run
 
 (6) p2_until.ruby
     - This is a short snippet of Ruby code that shows how to use an until statement. There are
@@ -125,11 +127,11 @@ README.txt
         (a) Command Line:
             - From the command line go into the directory that has p2_until.ruby
             - Print the command: ruby p2_until.ruby
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the two until loops will run
         (b) Atom editor:
             - Load the file p2_until.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the two until loops will run
 
 (7) p2_while.ruby
     - This is a short snippet of Ruby code that shows how to use a whlie loop. There are two
@@ -139,23 +141,28 @@ README.txt
         (a) Command Line:
             - From the command line go into the directory that has p2_while.ruby
             - Print the command: ruby p2_while.ruby
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the two while loops will run
         (b) Atom editor:
             - Load the file p2_while.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and each of the two while loops will run
 
 (8) milestone2code.ruby
-    - 
+    - This small-ish snippet of code will run selection sort on an unsorted int array and will
+      print the array before and after to show it was sorted correctly. This will be able to show
+      two unique ways to do loops, a unique way to do an if, and be able to show how to edit
+      and access into an array in Ruby. 
     - To compile and run this program:
         - Download and save milestone2code.ruby onto your machine
         (a) Command Line:
             - From the command line go into the directory that has milestone2code.ruby
             - Print the command: ruby milestone2code.ruby
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and will sort the unsorted int array by 
+              selection sort
         (b) Atom editor:
             - Load the file milestone2code.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and two lines should print to the console
+            - This will compile and run the program and will sort the unsorted int array by
+              selection sort
             
             
