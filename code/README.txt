@@ -164,5 +164,16 @@ README.txt
             - Click Packages -> Script -> Run Script
             - This will compile and run the program and will sort the unsorted int array by
               selection sort
-            
-            
+              
+------------------------------------------- MILESTONE 3 -------------------------------------------
+
+(1) p3_types.ruby
+(2) p3_arrays.ruby 
+(3) p3_boolean.ruby
+(4) p3_hash.ruby
+(5) p3_numbers.ruby
+(6) p3_strings.ruby
+(7) p3_symbols.ruby
+(8)
+(9)
+(10)
