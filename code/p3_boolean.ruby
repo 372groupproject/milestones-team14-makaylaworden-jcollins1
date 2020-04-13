@@ -2,9 +2,9 @@
 # jcollins1, makaylaworden
 # CSC 372, Collberg
 # p3_boolean.ruby
-#
-
-# Also can do <, >, <=, >=, ==
+# This file shows how to use booleans in different ways within if statements
+# in Ruby. Ruby can also support <, >, <=, >=, and ==. Ruby has a nil value
+# that is very similar to null in other languages. 0 by default is true. 
 
 if true
   puts "This will print true"
@@ -24,6 +24,7 @@ else
   puts "0 is equal to false"
 end
 
+# Uses different logical operators 
 bool = true || false
 puts "True OR False: #{bool}"
 
