@@ -2,7 +2,8 @@
 # jcollins1, makaylaworden
 # CSC 372, Collberg
 # p3_types.ruby
-# This file will print out all the different types as their classes in Ruby
+# This file will print out all the different types of types that are found within
+# Ruby. It will call on the class method to print which type each data type is.
 
 h = {"hash data type" => "yes"}
 puts "This is a String".class
