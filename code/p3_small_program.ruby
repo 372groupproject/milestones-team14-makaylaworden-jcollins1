@@ -18,8 +18,15 @@ def encode(phrase, key)
     end
   end
   }
-  print code
+  return code
 end
 
-
-encode("hello there", 4)
+message = ""
+key = 0
+encoded = ""
+puts "Enter in your secret message: "
+message = gets.chomp
+puts "Enter in your numerical key value: "
+key = gets.chomp.to_i
+encoded = encode(message.downcase, key)
+print "This is your new encoded message: #{encoded}"
