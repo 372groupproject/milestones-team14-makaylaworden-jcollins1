@@ -346,4 +346,16 @@ README.txt
             - This will not compile or run because it contains two compiler errrors that will
               cause the program to crash
               
-(11) 
+(11) p3_small_program.ruby
+    - This small program shows the uniqueness of the data types found within Ruby. This program
+      prompts the user twice for information. Once for a message they want to encode and a key
+      value for how much you want the message to change. The higer the number, the more scrabbled
+      it will be. After the user input it will go through the message by character and start to 
+      encode a new message that will be printed at the end. 
+    - To compile and run this program:
+        - Download and save p3_small_program.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_small_program.ruby
+            - Print the command: ruby p3_small_program.ruby
+            - This will compile and run the program and prompt the user twice for information
+              and then will encode their message to be something new
