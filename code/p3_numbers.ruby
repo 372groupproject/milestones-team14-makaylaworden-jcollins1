@@ -2,17 +2,19 @@
 # jcollins1, makaylaworden
 # CSC 372, Collberg
 # p3_numbers.ruby
-#
-
-# Ruby can handle both Integers and floating point numbers.
-# Depending on their size, there are two types of Integers,
-# one is Bignum and the second is Fixnum
+# This file shows how to use Integers and floating point numbers in Ruby.
+# Integers don't have decimal values and floating point numbers do. You
+# are able to create loops with Integers and be able to switch the
+# types easily from String -> Integer -> Floating point in any order. 
+# Depending on their size, there are two types of Integers, one is Bignum
+# and the second is Fixnum
 
 # float
 floatNum = 0.1
 # int
 intNum = 4
 
+# Shows the difference between float and Integer division
 time = 6.78 / 3600
 velocity = floatNum / time
 puts "The velocity was #{velocity}"
@@ -20,9 +22,11 @@ puts "The velocity was #{velocity}"
 time = 525 / 89
 puts "This shows integer division: #{time}"
 
+# Able to do mod
 modulus = 25 % 6
 puts "This shows mod: #{modulus}"
 
+# Show the different ways to create loops using Integers
 puts "This will count to 25"
 25.times {|number| print "#{number} "}
 print "\n"
@@ -42,7 +46,6 @@ print "\n"
 # Ruby can also convert an Integer or floating point numnber to a
 # String. Ruby also allows to switch between Integer and floating
 # point numbers
-
 int_to_string = 653.to_s
 puts "The value 653 is now type: #{int_to_string.class}"
 float_to_string = 45.21.to_s
