@@ -13,7 +13,7 @@ def encode(phrase, key)
   num = 0
   phrase.scan(/./) {|letter| begin
     if letter >= 'a' && letter <= 'z' then
-      num = letter.ord + key
+      key.times {num = letter.next}
       num = num - 26 if num.chr > 'z'
       num = num + 26 if num.chr < 'a'
       code = code + num.chr
