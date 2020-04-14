@@ -239,9 +239,111 @@ README.txt
               after they have been modified in some way
               
 (5) p3_numbers.ruby
+    - This small program shows how to use Integers and floating point numbers in different ways
+      within Ruby. Integers and floating point numbers can be used for arithmetic computations
+      and be able to traverse in a loop. Since everyting is an object in Ruby, Integers are able
+      to be used as such and have certain methods that can be invoked to start a loop. You can 
+      also change the type of Integer and floating point easily. 
+    - To compile and run this program:
+        - Download and save p3_numbers.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_numbers.ruby
+            - Print the command: ruby p3_numbers.ruby
+            - This will compile and run the program and will print the resulting values of using
+              Integers and floating point numbers in different ways
+        (b) Atom editor:
+            - Load the file p3_numbers.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will print the resulting values of using
+              Integers and floating point numbers in different ways
+              
 (6) p3_strings.ruby
+    - This small program shows how to use and modify Strings within Ruby. Ruby does allow for 
+      escape characters when creating a String. There are numerous methods that can be invoked 
+      on Strings which can be found within the file. 
+    - To compile and run this program:
+        - Download and save p3_strings.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_strings.ruby
+            - Print the command: ruby p3_strings.ruby
+            - This will compile and run the program and will print the resulting values of using
+              Strings in different ways
+        (b) Atom editor:
+            - Load the file p3_strings.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will print the resulting values of using
+              Strings in different ways
+              
 (7) p3_symbols.ruby
+    - This small program shows how to use symbols in Ruby. Symbols in Ruby are immutable and act
+      as a light-weight String in that they have a slightly better performance and take up less
+      memory. Symbols can be thought of as Enums which are commom in many other languages
+    - To compile and run this program:
+        - Download and save p3_symbols.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_symbols.ruby
+            - Print the command: ruby p3_symbols.ruby
+            - This will compile and run the program and will print the symbols and their values 
+        (b) Atom editor:
+            - Load the file p3_symbols.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will print the symbols and their values
+              
 (8) p3_runtime_error.ruby
+    - This small program shows how to create different types of runtime errors when coding in 
+      Ruby. The first example shows how to use the 'raise' keyword to throw an exception at 
+      any time and make the program crash. This will occur if line 22 is not commented out
+      because line 22 calls the method that invokes the 'raise' keyword. If line 22 is commented
+      out, then the program will cause an ArgumentError when calling the next method inverse().
+      It will cause as error because it will pass in a String when it needs to be a number of some
+      sorts. 
+    - To compile and run this program:
+        - Download and save p3_runtime_error.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_runtime_error.ruby
+            - Print the command: ruby p3_runtime_error.ruby
+            - This will compile and run to the point where it hits the 'raise' keyword or 
+              when it reaches the ArgumentError. 
+        (b) Atom editor:
+            - Load the file p3_runtime_error.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run to the point where it hits the 'raise' keyword or
+              when it reaches the ArgumentError
+              
 (9) p3_handle_exceptions.ruby
+    - This small program shows how to get around an exception without allowing the program 
+      to crash. The keyword to catch an exception is 'rescue'. This will allow for the 
+      program to rescue the error and be able to continue successfully
+    - To compile and run this program:
+        - Download and save p3_handle_exceptions.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_handle_exceptions.ruby
+            - Print the command: ruby p3_handle_exceptions.ruby
+            - This will compile and run the program and show the results of getting around an
+              exception
+        (b) Atom editor:
+            - Load the file p3_handle_exceptions.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and show the results of getting around an
+              exception
+              
 (10) p3_compile_errors.ruby
+    - This small program shows how to create compiler errors when coding in Ruby. This program
+      creates two different types of compiler errors. The first is a NameError because a 
+      variable was used before it was declared. The second is a syntax error because the array
+      that is being declared is missing the end ']'. You will have to commment out line 13 to
+      see the syntax error message
+    - To compile and run this program:
+        - Download and save p3_compile_errors.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_compile_errors.ruby
+            - Print the command: ruby p3_compile_errors.ruby
+            - This will not compile or run because it contains two compiler errors that will
+              cause the program to crash
+        (b) Atom editor:
+            - Load the file p3_numbers.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will not compile or run because it contains two compiler errrors that will
+              cause the program to crash
+              
 (11) 
