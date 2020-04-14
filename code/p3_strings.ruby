@@ -2,7 +2,10 @@
 # jcollins1, makaylaworden
 # CSC 372, Collberg
 # p3_strings_ruby
-#
+# This file shows how to create, edit, and traverse a String in Ruby. You
+# are able to use escape characters within Ruby to get a newline or tab.
+# Ruby also allows you to use ' ' or  " " but ' ' comes with more restrictions
+# on what can be modified. 
 
 puts "This is an example of a String"
 puts "You can use escape characters: \" "
@@ -44,6 +47,7 @@ str2 = str1.sub("mate", "friend")
 puts str1
 puts str2
 
+# More methods that are involved with Strings
 puts "hello".capitalize
 puts "UPPERCASE".downcase
 puts "lowercase".upcase
