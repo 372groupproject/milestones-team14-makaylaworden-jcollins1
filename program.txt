@@ -8,9 +8,11 @@ choses the word to guess and the other that makes the guesses. It will also requ
 hangman object that keeps track of the score.
 
 We expect the program to have quite a few functions, along with different object classes
-where each individual object can represent the hangman and both players.
+where each individual object can represent the hangman and both players. Each of these objects
+will be there own files to make sure one part of the program isn't doing too much.
 
-We expect the program to be approximatley 400-500 lines of code
+We expect the program to be approximatley 400-500 lines of code, rough estimate because we
+will be using multiple files to make up the total 400-500 lines. 
 
 We think this will be a good illustration of the features of our language because it
 will utilize it's object oriented build along with taking advantage of the convienent ways
