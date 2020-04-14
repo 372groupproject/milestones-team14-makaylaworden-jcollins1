@@ -2,7 +2,11 @@
 # jcollins1, makaylaworden
 # CSC 372, Collberg
 # p3_small_program.ruby
-#
+# This is a small program for milestone 3 that shows off the uniqueness of Ruby
+# when it comes to data types. This program takes in a message from the user and
+# a key and scabbles the message up. It moves each letter in the message up by
+# the amount of the key. It also wraps the message back around if it goes past
+# 'a' or 'z'
 
 def encode(phrase, key)
   code = ""
