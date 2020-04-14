@@ -1,1 +1,13 @@
+Our project will implement the game of Hangman. This will have 2 player objects, one that
+choses the word to guess and the other that makes the guesses. It will also requires a
+hangman object that keeps track of the score.
 
+We expect the program to have quite a few functions, along with different object classes
+where each individual object can represent the hangman and both players.
+
+We expect the program to be approximatley 400-500 lines of code
+
+We think this will be a good illustration of the features of our language because it
+will utilize it's object oriented build along with taking advantage of the convienent ways
+to manipulate strings. Making the game of hangman in particular can also make use of the
+different iteration styles that Ruby provides.
