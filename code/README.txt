@@ -168,12 +168,80 @@ README.txt
 ------------------------------------------- MILESTONE 3 -------------------------------------------
 
 (1) p3_types.ruby
+    - This small program will print out many different data types that are found within Ruby. It
+      will invoke the class method on various data types to display to the console what they are
+      inside Ruby
+    - To compile and run this program:
+        - Download and save p3_types.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_types.ruby
+            - Print the command: ruby p3_types.ruby
+            - This will compile and run the program and will print all the different data types
+        (b) Atom editor:
+            - Load the file p3_types.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will print all the different data types
+            
 (2) p3_arrays.ruby 
+    -  This small program will show different ways that an array can be created, edited, and 
+       traversed in Ruby. Arrays can be built by hard-coding the values in or dynamically
+       building the array. It shows a variety of methods that can be called on arrays and
+       the prints out the result after each method call. 
+    - To compile and run this program:
+        - Download and save p3_arrays.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_arrays.ruby
+            - Print the command: ruby p3_arrays.ruby
+            - This will compile and run the program and will print out arrays that have
+              been recently created or changed in some way and showing the result of that
+              change
+        (b) Atom editor:
+            - Load the file p3_arrays.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will print out arrays that have
+              been recently created or changed in some way and showing the result of that
+              change
+              
 (3) p3_boolean.ruby
+    - This small program will show different ways booleans can be ulitilized with Ruby. There are
+      four standard boolean values. True which is always true, false which is always false, nil 
+      which is always false, and 0 which is always true. Ruby can also support logical operators
+      as well as arithmetic as well. 
+    - To compile and run this program:
+        - Download and save p3_boolean.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_boolean.ruby
+            - Print the command: ruby p3_boolean.ruby
+            - This will compile and run the program and will print the resulting values of using 
+              booleans in different ways in Ruby
+        (b) Atom editor:
+            - Load the file p3_boolean.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will print the resulting values of using 
+              booleans in different ways in Ruby
+              
 (4) p3_hash.ruby
+    - This small program shows how to use hash structures in Ruby. It shows how to create,
+      edit, and traverse them. You are able to build the hash structure dynamically or with
+      hard-coded values. This program also shows how to delete, get the keys, and find the
+      length of the hash structure
+    - To compile and run this program:
+        - Download and save p3_hash.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p3_hash.ruby
+            - Print the command: ruby p3_hash.ruby
+            - This will compile and run the program and will print the resulting hash structures
+              after they have been modified in some way
+        (b) Atom editor:
+            - Load the file p3_hash.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will print the resulting hash structures
+              after they have been modified in some way
+              
 (5) p3_numbers.ruby
 (6) p3_strings.ruby
 (7) p3_symbols.ruby
-(8)
-(9)
-(10)
+(8) p3_runtime_error.ruby
+(9) p3_handle_exceptions.ruby
+(10) p3_compile_errors.ruby
+(11) 
