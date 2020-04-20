@@ -2,7 +2,12 @@
 # jcollins1, makaylaworden
 # CSC372, Collberg
 # p4_small_program.ruby
-#
+# This file is the small snippet of code for Milestone 4 that shows
+# off some of the uniqueness with Ruby and dividing code within a 
+# file. This short program computes and shows the average grades
+# amound some students. It can also compute and show and the max score
+# a student has received. It uses methods and classes to show how they
+# can be used.
 
 class StudentClass
   def getGrades
