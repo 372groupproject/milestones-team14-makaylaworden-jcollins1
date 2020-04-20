@@ -21,6 +21,8 @@ def startingMethod
 end
 
 class Hangman
+  @totalMisses
+  @userMisses
   # Fields:
   # => total misses
   # => number of misses until game is over
@@ -30,6 +32,19 @@ class Hangman
   # All of these just need to be the ASCII of a alive
   # body part and then the dead one
   def head
+    puts "       _^^^_ "
+    puts "      (o   o)"
+    puts "     (   ^   ) "
+    puts "     |       | "
+    puts "    /  \\   /  \\ "
+    puts "   / / |   | \\ \\ "
+    puts "  / /  |   |  \\ \\ "
+    puts " (0)   |   |   (0) "
+    puts "      / | | \\ "
+    puts "     /  | |  \\ "
+    puts "   _/ * | | * \\_ "
+    puts "  |_____| |_____|"
+    puts
   end
 
   def body
@@ -79,4 +94,5 @@ end
 # user is at
 level = 0
 level = startingMethod()
-
+hangman = Hangman.new
+hangman.head()
