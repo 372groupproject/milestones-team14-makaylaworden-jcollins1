@@ -359,3 +359,57 @@ README.txt
             - Print the command: ruby p3_small_program.ruby
             - This will compile and run the program and prompt the user twice for information
               and then will encode their message to be something new
+              
+------------------------------------------- MILESTONE 4 -------------------------------------------
+
+(1) p4_class.ruby
+    - This small program shows how to use classes in Ruby. It creates a very basic class that only
+      has one method. The program will create a new instance of the class with the keyword '.new'
+      and then calls the method inside the class which prints a String to the screen.
+    - To compile and run this program:
+        - Download and save p4_class.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p4_class.ruby
+            - Print the command: ruby p4_class.ruby
+            - This will compile and run the program and will print the method in the class 
+        (b) Atom editor:
+            - Load the file p4_class.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will print the method in the class
+            
+(2) p4_methods.ruby
+    - This small program shows how to use methods in Ruby. The first method that is called will
+      print an ASCII turtle to the screen and then will return a String. After the method returns
+      then it will print out that String. The next method that is called will show how methods
+      can take in an array and a pointer to an array. 
+    - To compile and run this program:
+        - Download and save p4_methods.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p4_methods.ruby
+            - Print the command: ruby p4_methods.ruby
+            - This will compile and run the program and will print the ASCII turtle and array
+              contents to the screen
+        (b) Atom editor:
+            - Load the file p4_methods.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will print the ASCII turtle and array
+              contents to the screen
+            
+(3) p4_small_program.ruby
+    - This small program shows off the uniqueness with classes and methods within Ruby. This
+      short program will compute the average grades for each assignment for all the students
+      and be able to find the max score a student has recieved so far. 
+    - To compile and run this program:
+        - Download and save p4_small_program.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p4_small_program.ruby
+            - Print the command: ruby p4_small_program.ruby
+            - This will compile and run the program and will show the averages for each 
+              assignment and the max score for a student
+        (b) Atom editor:
+            - Load the file p4_small_program.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will show the averages for each 
+              assignment and the max score for a student
+
+------------------------------------------- MILESTONE 5 -------------------------------------------
