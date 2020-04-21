@@ -412,4 +412,34 @@ README.txt
             - This will compile and run the program and will show the averages for each 
               assignment and the max score for a student
 
+(4) final_program.ruby
+    - This is the first step towards the final program to be submitted. Once it is done, it will
+      play the game of Hangman with the user. This is done by the user first selecting which
+      level of difficulty they would like to play at, the game choosing a phrase, and the user
+      making guesses until a full Hangman is drawn or they win
+    - Currently, the program selects a word based off the level of difficulty selected by the
+      user. It then gives them a hint to a topic the word is based off of. The first stages of
+      displaying what how many letters are in that word are in progress. However it is keeping
+      track of what the user is guessing and their score. In addition to all of this, the methods
+      have been written to display the hangman, they just aren't being called yet.
+    - Next week, the goal will be to first finalize the hints given to the user, along with showing 
+      the Hangman and then lastly showing when the player wins or loses.
+    - To compile and run this program:
+	- Save this program onto your machine
+	 (a) Command Line
+	     - Make your way to the directory in which final_program.ruby is saved
+	     - type the command ruby final_program.ruby
+	     - Chose your level of choice and make your guesses!
+		Note: At this point the program will not end due to it not knowing whether
+		      you are winning or losing, despite it counting what answers you give
+		      that are incorrect
+	(b) Atom editor:
+	    - Load the file final_program.ruby into the workspace
+	    - Click Packages -> Script -> Run Script
+	    - This will compile and run the program, starting with a propmt to you to chose a
+	      level, and begin making guesses.
+		Note: At this point the program will not end due to it not knowing whether
+		      you are winning or losing, despite it counting what answers you give
+		      that are incorrect
+
 ------------------------------------------- MILESTONE 5 -------------------------------------------
