@@ -1,38 +1,14 @@
+# Jensen Collins, Makayla Worden
+# jcollins1, makaylaworden
+# CSC 372, Collberg
+# p5_bindings.ruby
+# This file shows the lexical feature of bindings that are used in 
+# Ruby. Bindinds are a way to wrap variables inside a class or a 
+# method. It allows to be able to access local variables. 
 
-
-b = proc do
+exampleMethod = proc do
   local_variable = :local
   binding
 end.call
 
-puts b.eval "local_variable" #=> :local
-
-
-
-def fake_class_eval klass, source = nil, &block
-  class_binding = klass.send :eval, "binding"
-
-  if block
-    class_binding.local_variable_set :_fake_class_eval_block, block
-    class_binding.eval "_fake_class_eval_block.call"
-  else
-    class_binding.eval source
-  end
-end
-
-class Example
-end
-
-fake_class_eval Example, <<-BLOCK
-  def self.foo
-    :foo
-  end
-BLOCK
-
-fake_class_eval Example do
-  def bar
-    :bar
-  end
-end
-
-puts Example.foo #=> :foo
+puts exampleMethod.eval "local_variable" 
