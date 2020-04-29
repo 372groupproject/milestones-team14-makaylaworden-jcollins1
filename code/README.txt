@@ -443,3 +443,68 @@ README.txt
 		      that are incorrect
 
 ------------------------------------------- MILESTONE 5 -------------------------------------------
+
+(1) p5_bindings.ruby
+    - This small program shows how to use
+    - To compile and run this program:
+        - Download and save p5_bindings.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p5_bindings.ruby
+            - Print the command: ruby p5_bindings.ruby
+            - This will compile and run the program and will 
+        (b) Atom editor:
+            - Load the file p5_bindings.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will 
+
+(2) p5_blocks.ruby
+    - This small program shows how to use
+    - To compile and run this program:
+        - Download and save p5_blocks.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p5_blocks.ruby
+            - Print the command: ruby p5_blocks.ruby
+            - This will compile and run the program and will 
+        (b) Atom editor:
+            - Load the file p5_blocks.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will 
+	    
+(3) p5_closures.ruby
+    - This small program shows how to use
+    - To compile and run this program:
+        - Download and save p5_closures.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p5_closures.ruby
+            - Print the command: ruby p5_closures.ruby
+            - This will compile and run the program and will 
+        (b) Atom editor:
+            - Load the file p5_closures.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will 
+	    
+(4) p5_synchronize.ruby
+    - This small program shows how to use
+    - To compile and run this program:
+        - Download and save p5_synchronize.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p5_synchronize.ruby
+            - Print the command: ruby p5_synchronize.ruby
+            - This will compile and run the program and will 
+        (b) Atom editor:
+            - Load the file p5_synchronize.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will 
+	    
+(5) p5_threads.ruby
+    - This small program shows how to use
+    - To compile and run this program:
+        - Download and save p5_threads.ruby onto your machine
+        (a) Command Line:
+            - From the command line go into the directory that has p5_threads.ruby
+            - Print the command: ruby p5_threads.ruby
+            - This will compile and run the program and will 
+        (b) Atom editor:
+            - Load the file p5_threads.ruby into the workspace
+            - Click Packages -> Script -> Run Script
+            - This will compile and run the program and will 
