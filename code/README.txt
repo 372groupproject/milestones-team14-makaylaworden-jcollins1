@@ -445,66 +445,84 @@ README.txt
 ------------------------------------------- MILESTONE 5 -------------------------------------------
 
 (1) p5_bindings.ruby
-    - This small program shows how to use
+    - This small program shows how to use bindings to reference fields inside methods in Ruby. This
+      is one lexical feature that is unique to Ruby. 
     - To compile and run this program:
         - Download and save p5_bindings.ruby onto your machine
         (a) Command Line:
             - From the command line go into the directory that has p5_bindings.ruby
             - Print the command: ruby p5_bindings.ruby
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the local variable inside the
+	      method
         (b) Atom editor:
             - Load the file p5_bindings.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the local variable inside the
+	      method
 
 (2) p5_blocks.ruby
-    - This small program shows how to use
+    - This small program shows how to use blocks in Ruby. Blocks are very unique to Ruby in the 
+      fact they are chunks of code that can be passed and executed by any method in the file and
+      is passed in as a parameter. This is another lexical feature in Ruby. 
     - To compile and run this program:
         - Download and save p5_blocks.ruby onto your machine
         (a) Command Line:
             - From the command line go into the directory that has p5_blocks.ruby
             - Print the command: ruby p5_blocks.ruby
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the order in which the blocks 
+	      are executed 
         (b) Atom editor:
             - Load the file p5_blocks.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the order in which the blocks
+	      are executed
 	    
 (3) p5_closures.ruby
-    - This small program shows how to use
+    - This small program shows how to use closures in Ruby. Closures are a unique lexical feature
+      of Ruby. Closures are used to exit a method which is normally a return statement. There are 
+      two examples of using a normal method called a Proc and lambda.
     - To compile and run this program:
         - Download and save p5_closures.ruby onto your machine
         (a) Command Line:
             - From the command line go into the directory that has p5_closures.ruby
             - Print the command: ruby p5_closures.ruby
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the contents of the Proc and 
+	      lambda
         (b) Atom editor:
             - Load the file p5_closures.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the contents of the Proc and
+	      lambda
 	    
 (4) p5_synchronize.ruby
-    - This small program shows how to use
+    - This small program shows how to use synchronize threads in Ruby. This is an example of the
+      parallelism that can be used in Ruby. This allows for one thread to completely finish before
+      the other thread can continue. It allows for more controlled threads. 
     - To compile and run this program:
         - Download and save p5_synchronize.ruby onto your machine
         (a) Command Line:
             - From the command line go into the directory that has p5_synchronize.ruby
             - Print the command: ruby p5_synchronize.ruby
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the two threads with one 
+	      interrupting the other and finsihing before the other can print its last statement
         (b) Atom editor:
             - Load the file p5_synchronize.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the two threads with one
+	      interrupting the other and finishing before the other can print its last statement
 	    
 (5) p5_threads.ruby
-    - This small program shows how to use
+    - This small program shows how to use threads in Rubys. This program shows how to use parallelism
+      in Ruby. It prints from each thread with the time stamp to see how they interact with each other. 
     - To compile and run this program:
         - Download and save p5_threads.ruby onto your machine
         (a) Command Line:
             - From the command line go into the directory that has p5_threads.ruby
             - Print the command: ruby p5_threads.ruby
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the times that each thread prints to
+	      the screen
         (b) Atom editor:
             - Load the file p5_threads.ruby into the workspace
             - Click Packages -> Script -> Run Script
-            - This will compile and run the program and will 
+            - This will compile and run the program and will print the times that each thread prints to
+	      the screen
