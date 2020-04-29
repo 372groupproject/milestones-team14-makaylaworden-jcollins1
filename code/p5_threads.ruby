@@ -2,7 +2,10 @@
 # jcollins1, makaylaworden
 # CSC 372, Collberg
 # p5_threads.ruby
-#
+# This file shows how to used threads in Ruby to run a paralell
+# program. It contains two methods and switches inbetween with sleep
+# and joining the two threads and showing the Time stamp of when 
+# each print statement is made and by what method. 
 
 def func1
    i = 0
