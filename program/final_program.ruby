@@ -44,12 +44,40 @@ def startGame(level, puzzo, man)
   end
 
   # This will run the game until the player loses
-  # TODO: Get it to check for winner/loser
-  while man.totalMissesLeft != 0
+  while (man.getTotalMissesLeft != 0 && puzzo.getLettersLeft != "")
     guessBoard(puzzo)
-    # TODO: Print Hangman if guess was a miss
+    puts "\n\n"
+    if (man.getTotalMissesLeft == 5)
+      man.leftLeg
+    end
+    if (man.getTotalMissesLeft == 4)
+      man.rightLeg
+    end
+    if (man.getTotalMissesLeft == 3)
+      man.body
+      man.rightLeg
+    end
+    if (man.getTotalMissesLeft == 2)
+      man.leftArm
+      man.rightLeg
+    end
+    if (man.getTotalMissesLeft == 1)
+      man.rightArm
+      man.rightLeg
+    end
     nextGuess(puzzo, man)
   end
+
+  if (man.getTotalMissesLeft == 0)
+    man.printHangman
+    puts "\n"
+    puts "YOU LOST"
+  end
+  if (puzzo.getLettersLeft == "")
+    puts "\n"
+    puts "You won"
+  end
+
 
 end
 
@@ -60,13 +88,9 @@ end
 def guessBoard (puzzo)
   currentPuzzo = puzzo.currentPuzzle()
 
-  print "\nHere's a hint: "
+  #print "\nHere's a hint: "  # CAN ALWAYS RE-ADD
   currentPuzzo.chars.each do |i|
     if puzzo.getLettersGuessed.include? i
-      #TODO: Figure out why this doesn't check correctly
-      # literally nothing else can happen until this part
-      # is fixed
-
       # If they guessed it before, print it in its position
       print i
     else # otherwise print a blank
@@ -79,12 +103,11 @@ end
 # Puzzle with that guess and subtracts from
 # Hangman's number of guesses left if it is incorrect
 def nextGuess(puzzo, man)
-  puts "\nNext guess? "
-  guess = gets # Get guess
+  print "\nNext guess? "
+  guess = gets.chomp # Get guess
   guessedRight = puzzo.updateGuesses(guess) # Update puzzo
-
   if !guessedRight # If incorrect guess,
-    man.updateMissesLeft(-1)
+    man.updateMissesLeft
   end
 end
 
@@ -93,24 +116,24 @@ class Hangman
 # => possible booleans to keep track of Which
 # => body parts have been elimainated
   def initialize
-    @totalMissesLeft = 8 # How many Hangman body parts there are left to draw
+    @totalMissesLeft = 6 # How many Hangman body parts there are left to draw
     # This number will be subtracted according to the number of incorrect guesses
     # the user makes
   end
 
 # Setter
-  def updateMissesLeft (val)
-    @totalMissesLeft -= val
+  def updateMissesLeft
+    @totalMissesLeft = @totalMissesLeft - 1
   end
 # Getter
-  def totalMissesLeft
+  def getTotalMissesLeft
     return @totalMissesLeft
   end
 
 # All of these just need to be the ASCII of a alive
 # body part and then the dead one
   def head
-    # eigth miss
+    # sixth miss
     puts "      _^^^_ "
     puts "      (o   o)"
     puts "     (   ^   ) "
@@ -179,7 +202,7 @@ class Puzzle
   # => different puzzles
   def initialize
     @currentPuzzle = ""
-    @lettersLeft = Array.new
+    @lettersLeft = ""
     @lettersGuessed = Array.new
   end
 
@@ -188,7 +211,9 @@ class Puzzle
   def getPuzzleOne
     # Theme: Animals
     puzzOne = ["dog", "cat", "bug", "cow", "pig", "yak", "owl"]
-    @currentPuzzle = puzzOne[rand(puzzOne.size)] # Picks a random one
+    num = rand(puzzOne.size)
+    @currentPuzzle = puzzOne[num] # Picks a random one
+    @lettersLeft = puzzOne[num]
     return @currentPuzzle
   end
 
@@ -197,7 +222,9 @@ class Puzzle
   def getPuzzleTwo
     # Theme: Ice Cream Flavors
     puzzTwo = ["chocolate", "vanilla", "strawberry", "cookie dough"]
-    @currentPuzzle = puzzTwo[rand(puzzTwo.size)] # Picks a rando
+    num = rand(puzzTwo.size)
+    @currentPuzzle = puzzTwo[num] # Picks a rando
+    @lettersLeft = puzzTwo[num]
     return @currentPuzzle
   end
 
@@ -208,7 +235,9 @@ class Puzzle
     puzzThree = ["san diego", "tucson", "phoenix", "seattle",
                  "los angeles", "new york", "dallas", "nashville",
                  "miami", "portland"]
-    @currentPuzzle = puzzThree[rand(puzzThree.size)] # Returns random city
+    num = rand(puzzThree.size)
+    @currentPuzzle = puzzThree[num] # Returns random city
+    @lettersLeft = puzzThree[num]
     return @currentPuzzle
   end
 
@@ -216,8 +245,10 @@ class Puzzle
   # or not the puzzle contained this guess
   def updateGuesses (guess)
     @lettersGuessed.append(guess)
+    if (currentPuzzle.include? guess)
+      lettersLeft(guess);
+    end
     return (currentPuzzle.include? guess)
-    # TODO: Update letters left
   end
 
   # Getters
@@ -225,13 +256,24 @@ class Puzzle
     return @currentPuzzle
   end
 
-  def lettersLeft
-    #TODO: Me!
+  def lettersLeft(guess)
+    temp = @lettersLeft
+    @lettersLeft = ""
+    temp.scan(/./) do |i|
+      if (i != guess)
+        @lettersLeft += i
+      end
+    end
+  end
+
+  def getLettersLeft
+    return @lettersLeft
   end
 
   def getLettersGuessed
     return @lettersGuessed
   end
+
 end
 
 # while loop of the game to continue and keep track of where the
