@@ -528,4 +528,15 @@ README.txt
 	      the screen
 
 (6) final_program.ruby
-    - 
+    - This program wil play the game of Hangman with the user. This is done by the user first selecting
+      which level of difficulty they would like to play at, the game choosing a phrase, and the user
+      making guesses until a full Hangman is drawn or they win. Currently, the program selects a word 
+      based off the level of difficulty selected by the user. It then gives them a hint to a topic the 
+      word is based off of.
+    - To compile and run this program:
+	- Save this program onto your machine
+	 (a) Command Line
+	     - Make your way to the directory in which final_program.ruby is saved
+	     - type the command ruby final_program.ruby
+	     - This will compile and run the program and will start to play the hangman game by asking the
+	       user which level they want to play and then the game will start.
